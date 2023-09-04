@@ -153,6 +153,11 @@ int main()
 	      case 3:
 		  deletar();//chamada de funções
 		  break;
+		  
+		  case 4:
+		  printf("Obrigado por utilizar o sistema!\n");
+		  return 0;
+		  break;
 	    
 	      default:
 	  	  printf("Essa opçao não está disponivel!\n");
